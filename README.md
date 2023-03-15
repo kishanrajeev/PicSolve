@@ -2,15 +2,18 @@
 
 AI Powered Image Powered question answerer
 
-## Getting Started
+## Status and Images
 
-This project is a starting point for a Flutter application.
+This project is being actively developed and maintained by Kishan Rajeev.
 
-A few resources to get you started if this is your first Flutter project:
+<table>
+  <tr>
+    <td>SmartSnap Main Page(Default)</td>
+     <td>Ai Results Page</td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/125786083/225181697-70ac7fbb-dfb9-4d5c-add8-025d7cd142bb.jpg" width=270 height=580></td>
+    <td><img src="https://user-images.githubusercontent.com/125786083/225181761-9e16e9ca-3006-4a16-be2d-accbbc9495b5.jpg" width=270 height=580></td>
+  </tr>
+ </table>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
