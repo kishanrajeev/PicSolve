@@ -8,7 +8,7 @@ This project is being actively developed and maintained by Kishan Rajeev.
 
 <table>
   <tr>
-    <td>SmartSnap Main Page(Default)</td>
+    <td>SmartSnap Main Page</td>
      <td>Ai Results Page</td>
   </tr>
   <tr>
