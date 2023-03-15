@@ -1,6 +1,6 @@
-# ai_problem_sollver
+# SmartSnap
 
-A new Flutter project.
+AI Powered Image Powered question answerer
 
 ## Getting Started
 
