@@ -1,6 +1,6 @@
 # SmartSnap
 
-Use AI to extract and answer questions from any image with this web app
+Use AI to extract and answer questions from any image
 
 ## Status and Images
 
