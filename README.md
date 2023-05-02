@@ -1,6 +1,6 @@
 # SmartSnap
 
-AI Powered Image Powered question answerer
+Use AI to extract and answer questions from any image with this web app
 
 ## Status and Images
 
