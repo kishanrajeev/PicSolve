@@ -10,7 +10,7 @@ A web-based application that uses AI to extract and answer questions from any im
 ## Getting Started
 
 1. Install the SmartSnap app on your Android device.
-2. Click the "Take a Picture" button to take a picture or select an image from your gallery.
+2. Click the Shutter button to take a picture or select an image from your gallery.
 3. SmartSnap will extract text from the image and answer any questions you ask about it.
 4. You can also ask follow up questions.
 
