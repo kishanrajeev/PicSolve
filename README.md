@@ -1,10 +1,20 @@
 # SmartSnap
 
-Use AI to extract and answer questions from any image
+A web-based application that uses AI to extract and answer questions from any image.
 
-## Status and Images
+## Features
 
-This project is being actively developed and maintained by Kishan Rajeev.
+* Extract text from images.
+* Answer questions about images.
+
+## Getting Started
+
+1. Install the SmartSnap app on your Android device.
+2. Click the "Take a Picture" button to take a picture or select an image from your gallery.
+3. SmartSnap will extract text from the image and answer any questions you ask about it.
+4. You can also ask follow up questions.
+
+## Screenshots
 
 <table>
   <tr>
@@ -17,3 +27,11 @@ This project is being actively developed and maintained by Kishan Rajeev.
   </tr>
  </table>
 
+
+## Contact
+
+* [Kishan Rajeev](https://kishan.knowledgeplatter.com/)
+
+## License
+
+SmartSnap is licensed under the MIT License.
