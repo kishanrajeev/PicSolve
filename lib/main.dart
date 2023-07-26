@@ -72,7 +72,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
       ));
 
       // Search the text on Perplexity
-      String url = 'https://www.perplexity.ai/?q=$text';
+      String url = 'https://www.perplexity.ai/?q=$text&copilot=false&focus=wolfram';
       Navigator.push(
         context,
         MaterialPageRoute(
