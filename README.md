@@ -1,4 +1,4 @@
-# SmartSnap
+# PicSolve
 
 A web-based application that uses AI to extract and answer questions from any image.
 
