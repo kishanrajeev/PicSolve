@@ -1,4 +1,4 @@
-package com.kishan.problemsolver.ai_problem_sollver
+package com.kishan.smartans
 
 import io.flutter.embedding.android.FlutterActivity
 

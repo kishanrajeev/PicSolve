@@ -45,8 +45,11 @@ class TakePictureScreenState extends State<TakePictureScreen> {
     super.initState();
     _controller = CameraController(
       widget.camera,
-      ResolutionPreset.medium,
+      ResolutionPreset.ultraHigh,
     );
+
+
+
 
     _initializeControllerFuture = _controller.initialize();
   }
@@ -89,23 +92,48 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Text to Search')),
+      appBar: AppBar(
+        title: Text('PicSolve', textAlign: TextAlign.center),
+        centerTitle: true,
+      ),
+
       body: FutureBuilder<void>(
         future: _initializeControllerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
-            return CameraPreview(_controller);
+            return Column(
+              children: [
+                Card(
+                  margin: const EdgeInsets.symmetric(horizontal: 32.0, vertical: 40),
+                  child: AspectRatio(
+                    aspectRatio: 9 / 16,
+                    child: CameraPreview(_controller),
+                  ),
+                ),
+                Container(
+                    width: 150,
+                    child:
+                    Card(
+                      child: IconButton(
+                        icon: Icon(Icons.camera_enhance_rounded),
+                        onPressed: () async {
+                          await _readTextFromImage();
+                        },
+                      ),)
+                )
+
+
+
+              ],
+            );
+
+
           } else {
             return Center(child: CircularProgressIndicator());
           }
         },
       ),
-      floatingActionButton:
-      FloatingActionButton(child:
-      Icon(Icons.camera_alt),
-        onPressed:
-            () async => await _readTextFromImage(),
-      ),
+
     );
   }
 }
@@ -185,7 +213,6 @@ class _WebViewPageState extends State<WebViewPage> {
       url: widget.url,
       withZoom: true,
       withLocalStorage: true,
-      hidden: true,
       initialChild: Center(child: CircularProgressIndicator()),
       appBar: AppBar(
         title: Text('Search Results'),
